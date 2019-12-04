@@ -12,6 +12,7 @@ phases:
       #- echo '#!/bin/bash -e' >> /tmp/testscript.sh
       #- echo 'Testing 1 2 3 ' >> /tmp/testscript.sh
       #- cd /tmp
+      - chmod 755 bad_script.sh
       - ./bad_script.sh
   build: 
     commands: 
