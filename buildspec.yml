@@ -9,8 +9,8 @@ phases:
     commands:
       - apt-get install unzip
       - apt-get install -y curl
-      - mkdir packer-moved
-      - mv packer packer-moved
+      #- mkdir packer-moved
+      #- mv packer packer-moved
       - echo "Installing HashiCorp Packer..."
       - curl -qL -o packer.zip https://releases.hashicorp.com/packer/1.4.5/packer_1.4.5_linux_amd64.zip && unzip packer.zip
       - echo "Installing jq..."
