@@ -14,6 +14,7 @@ phases:
       #- cd /tmp
       - chmod 755 bad_script.sh
       - ./bad_script.sh
+      - ./20-CMT-place_bootloader.sh
   build: 
     commands: 
       - echo $CODEBUILD_GIT_BRANCH > test.txt 
